@@ -1,7 +1,7 @@
 from flask import Flask
-app = Flask(_name_)
+server = Flask(_name_)
 
-@app.route("/")
+@server.route("/")
 def Home():
     return "<h1>อัคราวจี แจ้งศรี 6006021630032</h1>";
 
