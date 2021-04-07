@@ -8,4 +8,4 @@ def Home():
 
 if _name_ == '_main_':
     #app.run(debug=True)
-    app.run(host='0.0.0.0', port=80)
+    server.run(host='0.0.0.0', port=80)
